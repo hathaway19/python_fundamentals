@@ -1,0 +1,30 @@
+pip install Django
+	-installs the Django library so you're able to use it while programming
+	-shows which version you installed and if there's a newer version
+	-show's status of download
+	-show's size of install
+pip list
+	-appears to show all the different packages/libraries you have installed on the device
+	-shows which version you have installed as well
+pip install Django
+	-output: Requirement already satisfied: Django in c:\python27\lib\site-packages
+		 Requirement already satisfied: pytz in c:\python27\lib\site-packages (from Django)
+	-Since it's already installed, shows that you already installed it
+	-shows location of where it is installed
+pip freeze
+	-pip freeze is similar in that it shows packages it has installed
+	-unlike list, it doesn't show packages that pip intself depends on (setuptools and pip)
+	-shows packages in requirements format
+pip freeze > requirements.txt
+	-places the output of "pip freeze" into a new file called "requirements.txt"
+pip uninstall Django
+	-prompts user with option to proceed with yes or no
+	-uninstalls the package
+	-shows all the files it removes
+pip show Django
+	-nothing shows up in already uninstalled
+	-If installed,
+		-shows name, version, summary, home page, author, author contact info, license, location of install, 
+			what packages it requires to run
+pip search Flask
+	-searches packages relating to Flask
